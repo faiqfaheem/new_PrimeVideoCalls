@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_chat.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_hero.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_hero.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/activity_start.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_message_typing.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_message_typing.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_image_sent.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_image_sent.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_language.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_language.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_start.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_start.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_intro_four.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_intro_four.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_intro_three.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_intro_three.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_schedule_call.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_schedule_call.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_prank_sound.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_prank_sound.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_category.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_category.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/exit_dialogue.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/exit_dialogue.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_custom_hero.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_custom_hero.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/row_language.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/row_language.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_message_received.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_message_received.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_intro_two.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_intro_two.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/bottom_sheet_ai_reply.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/bottom_sheet_ai_reply.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_fake_incoming_call.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_fake_incoming_call.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/bottom_sheet_call.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/bottom_sheet_call.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/popup_send_receive.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/popup_send_receive.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/bottom_sheet_call_end.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/bottom_sheet_call_end.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_ringing.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_ringing.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_sound.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_sound.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_video_call.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_video_call.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_home.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_setting.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_setting.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_on_boarding.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_on_boarding.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_image_received.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_image_received.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_a_i_message.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_a_i_message.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_splash.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_splash.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_hero_scedule.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_hero_scedule.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_play_sound.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_play_sound.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/fragment_intro_one.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/fragment_intro_one.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/dialog_no_internet.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/dialog_no_internet.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_add_contact.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_add_contact.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_chat_user.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_chat_user.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/item_message_sent.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/item_message_sent.xml"
+    },
+    {
+        "merged": "com.axis.vpn.tools.prankvideocall.app-mergeDebugResources-74:/layout/bottom_sheet_custom_caller.xml",
+        "source": "com.axis.vpn.tools.prankvideocall.app-main-77:/layout/bottom_sheet_custom_caller.xml"
+    }
+]

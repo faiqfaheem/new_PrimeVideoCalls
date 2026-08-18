@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#1F66D8</color>
+    <color name="textGray">#3F3F3F</color>
+    <color name="progressGray">#E6E6E6</color>
+    <color name="textcolor">#4F46E5</color>
+    <color name="primarytext">#333333</color>
+    <color name="des_color">#5D3F3B</color>
+    <color name="back_frag">#FAF9FE</color>
+    <color name="strock_color">#DAD9DF</color>
+    <color name="primary_light">#E5F2FF</color>
+    <color name="card_back">#F4F3F8</color>
+    <color name="gray">#3F3F3F</color>
+</resources>

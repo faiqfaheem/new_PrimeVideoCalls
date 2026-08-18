@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:padding="4dp">
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:padding="@dimen/_2sdp"
+        android:background="@drawable/bg_message_sent"
+        android:maxWidth="280dp">
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            app:strokeColor="@color/white"
+            app:strokeWidth="0dp"
+            android:layout_margin="@dimen/_1sdp"
+            app:cardBackgroundColor="#DCF8C6"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end|bottom"
+                    android:layout_margin="8dp">
+
+                    <TextView
+                        android:id="@+id/tvTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:background="@drawable/bg_call_gradient"
+                        android:backgroundTint="#66000000"
+                        android:paddingHorizontal="6dp"
+                        android:paddingVertical="2dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="11sp" />
+
+                    <ImageView
+                        android:id="@+id/ivStatus"
+                        android:layout_width="14dp"
+                        android:layout_height="14dp"
+                        android:layout_marginStart="3dp"
+                        android:src="@drawable/ic_double_check" />
+                </LinearLayout>
+
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

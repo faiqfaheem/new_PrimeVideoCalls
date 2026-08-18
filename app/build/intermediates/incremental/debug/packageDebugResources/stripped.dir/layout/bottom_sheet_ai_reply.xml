@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_bg"
+    android:padding="20dp">
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#CCCCCC" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reply Mode"
+        android:textColor="@color/textcolor"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="@color/textGray"
+        android:text="Choose how messages will be added to the conversation."
+        android:textSize="14sp"/>
+
+    <!-- Manual Card -->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardManual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#F0EEEE"
+        app:strokeColor="#F0EEEE"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:src="@drawable/ic_edit"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:text="Manual Reply"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="You will type replies manually."
+                    android:textSize="13sp"
+                    android:textColor="@color/textGray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/cbManual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                app:buttonTint="@color/textcolor" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- AI Card -->
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardAi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="#F0EEEE"
+        app:strokeColor="#F0EEEE"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:src="@drawable/ic_ai"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="12dp">
+
+                <TextView
+                    android:text="AI Reply"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/textcolor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="AI automatically generates replies."
+                    android:textSize="13sp"
+                    android:textColor="@color/textGray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <com.google.android.material.checkbox.MaterialCheckBox
+                android:id="@+id/cbAi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                app:buttonTint="@color/textcolor" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_call_gradient"
+        android:text="@string/_continue"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="16dp"
+    android:layoutDirection="ltr"
+    app:cardElevation="0dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="#EEEEEE"
+    app:cardBackgroundColor="@android:color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:padding="12dp">
+
+        <!-- Profile Image -->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivUser"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/hero_one"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="Zendaya"
+            android:textColor="@color/textcolor"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@id/ivUser"
+            app:layout_constraintTop_toTopOf="@id/ivUser"
+            app:layout_constraintEnd_toStartOf="@id/tvTime"/>
+
+        <!-- Time -->
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:35 PM"
+            android:textColor="@color/textGray"
+            android:textSize="12sp"
+            app:layout_constraintTop_toTopOf="@id/tvName"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="Hey! Are you available for a video call?"
+            android:textColor="@color/textGray"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="@id/tvName"
+            app:layout_constraintTop_toBottomOf="@id/tvName"
+            app:layout_constraintEnd_toStartOf="@id/tvUnread"/>
+
+        <!-- Unread Count -->
+
+        <TextView
+            android:id="@+id/tvUnread"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:background="@drawable/bg_unread_count"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@android:color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/tvMessage"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

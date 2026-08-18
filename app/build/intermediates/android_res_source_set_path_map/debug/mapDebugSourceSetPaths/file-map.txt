@@ -1,0 +1,9 @@
+com.axis.vpn.tools.prankvideocall.app-pngs-0 Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\build\generated\res\pngs\debug
+com.axis.vpn.tools.prankvideocall.app-resValues-1 Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\build\generated\res\resValues\debug
+com.axis.vpn.tools.prankvideocall.app-updated_navigation_xml-2 Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\build\generated\updated_navigation_xml\debug
+com.axis.vpn.tools.prankvideocall.app-packageDebugResources-3 Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.axis.vpn.tools.prankvideocall.app-packageDebugResources-4 Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.axis.vpn.tools.prankvideocall.app-debug-5 Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.axis.vpn.tools.prankvideocall.app-debug-6 Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\debug\res
+com.axis.vpn.tools.prankvideocall.app-main-7 Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\res
+gradleHome-0 C:\Users\Zeeshan\.gradle

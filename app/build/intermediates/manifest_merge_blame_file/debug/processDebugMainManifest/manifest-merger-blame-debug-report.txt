@@ -1,0 +1,244 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.axis.vpn.tools.prankvideocall"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="24"
+8-->INJECTED
+9        android:targetSdkVersion="37" />
+9-->INJECTED
+10
+11    <uses-feature
+11-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.camera"
+12-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="false" />
+13-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:9:5-64
+15-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:10:5-67
+16-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:11:5-66
+17-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:11:22-63
+18    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+18-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:12:5-13:66
+18-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:13:9-63
+19    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+19-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:15:5-16:61
+19-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:16:9-58
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[androidx.media3:media3-exoplayer:1.11.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\25ee1ac4b8db3a39028f9b6e033cfe7e\transformed\media3-exoplayer-1.11.0\AndroidManifest.xml:22:5-79
+20-->[androidx.media3:media3-exoplayer:1.11.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\25ee1ac4b8db3a39028f9b6e033cfe7e\transformed\media3-exoplayer-1.11.0\AndroidManifest.xml:22:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[androidx.media3:media3-exoplayer:1.11.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\25ee1ac4b8db3a39028f9b6e033cfe7e\transformed\media3-exoplayer-1.11.0\AndroidManifest.xml:23:5-68
+21-->[androidx.media3:media3-exoplayer:1.11.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\25ee1ac4b8db3a39028f9b6e033cfe7e\transformed\media3-exoplayer-1.11.0\AndroidManifest.xml:23:22-65
+22
+23    <permission
+23-->[androidx.core:core:1.19.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ffef09ecd4b9fa3c9699e68ef607fc4\transformed\core-1.19.0\AndroidManifest.xml:22:5-24:47
+24        android:name="com.axis.vpn.tools.prankvideocall.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.19.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ffef09ecd4b9fa3c9699e68ef607fc4\transformed\core-1.19.0\AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.19.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ffef09ecd4b9fa3c9699e68ef607fc4\transformed\core-1.19.0\AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.axis.vpn.tools.prankvideocall.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+27-->[androidx.core:core:1.19.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ffef09ecd4b9fa3c9699e68ef607fc4\transformed\core-1.19.0\AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.19.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ffef09ecd4b9fa3c9699e68ef607fc4\transformed\core-1.19.0\AndroidManifest.xml:26:22-94
+28    <!-- &lt;!&ndash; For Android 13+ &ndash;&gt; -->
+29    <!-- <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" /> -->
+30    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+31    <application
+31-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:25:5-64:19
+32        android:name="com.axis.vpn.tools.prankvideocall.MyApp"
+32-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:26:9-30
+33        android:allowBackup="true"
+33-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:27:9-35
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.19.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ffef09ecd4b9fa3c9699e68ef607fc4\transformed\core-1.19.0\AndroidManifest.xml:28:18-86
+35        android:dataExtractionRules="@xml/data_extraction_rules"
+35-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:28:9-65
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+37-->INJECTED
+38        android:fullBackupContent="@xml/backup_rules"
+38-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:29:9-54
+39        android:icon="@mipmap/ic_launcher"
+39-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:30:9-43
+40        android:label="@string/app_name"
+40-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:31:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:32:9-54
+42        android:supportsRtl="true"
+42-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:33:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.PrankVideoCall" >
+44-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:34:9-52
+45        <activity
+45-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:35:9-44:20
+46            android:name="com.axis.vpn.tools.prankvideocall.ui.activity.StartActivity"
+46-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:36:13-54
+47            android:exported="true"
+47-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:39:13-36
+48            android:screenOrientation="portrait"
+48-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:37:13-49
+49            android:windowSoftInputMode="adjustResize" >
+49-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:38:13-55
+50            <intent-filter>
+50-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:40:13-43:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:41:17-69
+51-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:41:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:42:17-77
+53-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:42:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <receiver
+57-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:45:9-51:20
+58            android:name="com.axis.vpn.tools.prankvideocall.utils.receivers.CallAlarmReceiver"
+58-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:46:13-62
+59            android:exported="true" >
+59-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:47:13-36
+60            <intent-filter>
+60-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:48:13-50:29
+61                <action android:name="com.axis.vpn.tools.prankvideocall.CALL_ALARM_ACTION" />
+61-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:49:17-94
+61-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:49:25-91
+62            </intent-filter>
+63        </receiver>
+64
+65        <provider
+65-->INJECTED
+66            android:name="androidx.core.content.FileProvider"
+66-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:54:13-62
+67            android:authorities="com.axis.vpn.tools.prankvideocall.provider"
+67-->INJECTED
+68            android:exported="false"
+68-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:56:13-37
+69            android:grantUriPermissions="true" >
+69-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:57:13-47
+70            <meta-data
+70-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:59:13-61:54
+71                android:name="android.support.FILE_PROVIDER_PATHS"
+71-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:60:17-67
+72                android:resource="@xml/file_paths" />
+72-->Z:\vibraytech\prankcall\new_PrimeVideoCalls\app\src\main\AndroidManifest.xml:61:17-51
+73        </provider>
+74        <!--
+75        Service for holding metadata. Cannot be instantiated.
+76        Metadata will be merged from other manifests.
+77        -->
+78        <service
+78-->[androidx.camera:camera-core:1.6.1] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b44975fe9f84dd8d5aaef09591eb83f3\transformed\camera-core-1.6.1\AndroidManifest.xml:29:9-33:78
+79            android:name="androidx.camera.core.impl.MetadataHolderService"
+79-->[androidx.camera:camera-core:1.6.1] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b44975fe9f84dd8d5aaef09591eb83f3\transformed\camera-core-1.6.1\AndroidManifest.xml:30:13-75
+80            android:enabled="false"
+80-->[androidx.camera:camera-core:1.6.1] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b44975fe9f84dd8d5aaef09591eb83f3\transformed\camera-core-1.6.1\AndroidManifest.xml:31:13-36
+81            android:exported="false" >
+81-->[androidx.camera:camera-core:1.6.1] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b44975fe9f84dd8d5aaef09591eb83f3\transformed\camera-core-1.6.1\AndroidManifest.xml:32:13-37
+82            <meta-data
+82-->[androidx.camera:camera-camera2:1.6.1] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\ad684f3c72124154b7e88d2b81f644de\transformed\camera-camera2-1.6.1\AndroidManifest.xml:30:13-32:89
+83                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+83-->[androidx.camera:camera-camera2:1.6.1] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\ad684f3c72124154b7e88d2b81f644de\transformed\camera-camera2-1.6.1\AndroidManifest.xml:31:17-103
+84                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+84-->[androidx.camera:camera-camera2:1.6.1] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\ad684f3c72124154b7e88d2b81f644de\transformed\camera-camera2-1.6.1\AndroidManifest.xml:32:17-86
+85        </service>
+86
+87        <provider
+87-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b4a39ca9076fc545477dcae392760125\transformed\emoji2-1.4.0\AndroidManifest.xml:24:9-32:20
+88            android:name="androidx.startup.InitializationProvider"
+88-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b4a39ca9076fc545477dcae392760125\transformed\emoji2-1.4.0\AndroidManifest.xml:25:13-67
+89            android:authorities="com.axis.vpn.tools.prankvideocall.androidx-startup"
+89-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b4a39ca9076fc545477dcae392760125\transformed\emoji2-1.4.0\AndroidManifest.xml:26:13-68
+90            android:exported="false" >
+90-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b4a39ca9076fc545477dcae392760125\transformed\emoji2-1.4.0\AndroidManifest.xml:27:13-37
+91            <meta-data
+91-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b4a39ca9076fc545477dcae392760125\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+92-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b4a39ca9076fc545477dcae392760125\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+93                android:value="androidx.startup" />
+93-->[androidx.emoji2:emoji2:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\b4a39ca9076fc545477dcae392760125\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.lifecycle:lifecycle-process:2.11.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\6415a3458409ef2ad7cd26358914d32b\transformed\lifecycle-process-2.11.0\AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+95-->[androidx.lifecycle:lifecycle-process:2.11.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\6415a3458409ef2ad7cd26358914d32b\transformed\lifecycle-process-2.11.0\AndroidManifest.xml:30:17-78
+96                android:value="androidx.startup" />
+96-->[androidx.lifecycle:lifecycle-process:2.11.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\6415a3458409ef2ad7cd26358914d32b\transformed\lifecycle-process-2.11.0\AndroidManifest.xml:31:17-49
+97            <meta-data
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+99                android:value="androidx.startup" />
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+100        </provider>
+101
+102        <uses-library
+102-->[androidx.window:window:1.5.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\df8afddf8103309230d853b733194867\transformed\window-1.5.0\AndroidManifest.xml:23:9-25:40
+103            android:name="androidx.window.extensions"
+103-->[androidx.window:window:1.5.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\df8afddf8103309230d853b733194867\transformed\window-1.5.0\AndroidManifest.xml:24:13-54
+104            android:required="false" />
+104-->[androidx.window:window:1.5.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\df8afddf8103309230d853b733194867\transformed\window-1.5.0\AndroidManifest.xml:25:13-37
+105        <uses-library
+105-->[androidx.window:window:1.5.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\df8afddf8103309230d853b733194867\transformed\window-1.5.0\AndroidManifest.xml:26:9-28:40
+106            android:name="androidx.window.sidecar"
+106-->[androidx.window:window:1.5.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\df8afddf8103309230d853b733194867\transformed\window-1.5.0\AndroidManifest.xml:27:13-51
+107            android:required="false" />
+107-->[androidx.window:window:1.5.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\df8afddf8103309230d853b733194867\transformed\window-1.5.0\AndroidManifest.xml:28:13-37
+108
+109        <service
+109-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\135199ae00dfa91ad9486208bbe7a3f8\transformed\room-runtime\AndroidManifest.xml:24:9-28:63
+110            android:name="androidx.room.MultiInstanceInvalidationService"
+110-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\135199ae00dfa91ad9486208bbe7a3f8\transformed\room-runtime\AndroidManifest.xml:25:13-74
+111            android:directBootAware="true"
+111-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\135199ae00dfa91ad9486208bbe7a3f8\transformed\room-runtime\AndroidManifest.xml:26:13-43
+112            android:exported="false" />
+112-->[androidx.room:room-runtime-android:2.8.4] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\135199ae00dfa91ad9486208bbe7a3f8\transformed\room-runtime\AndroidManifest.xml:27:13-37
+113
+114        <receiver
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+115            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+116            android:directBootAware="false"
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+117            android:enabled="true"
+117-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+118            android:exported="true"
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+119            android:permission="android.permission.DUMP" >
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+120            <intent-filter>
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+121                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+122            </intent-filter>
+123            <intent-filter>
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+124                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+125            </intent-filter>
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+127                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+130                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Zeeshan\.gradle\caches\9.6.1\transforms\3ca95514d2a90192dd588b3b9bb33576\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+131            </intent-filter>
+132        </receiver>
+133    </application>
+134
+135</manifest>

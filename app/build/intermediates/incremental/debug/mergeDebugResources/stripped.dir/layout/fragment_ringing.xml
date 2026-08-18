@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:layoutDirection="ltr"
+    android:background="@drawable/backaudio"
+    android:fitsSystemWindows="false">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.camera.view.PreviewView
+            android:id="@+id/previewView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:keepScreenOn="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivCaller"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:src="@drawable/hero_one"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/caller_name"
+            android:textColor="@android:color/white"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivCaller" />
+
+        <!-- Timer -->
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/ringing"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvName" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivCallerImage"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hero_one"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvDuration" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/controlPanelConnecting"
+            android:layout_width="0dp"
+            android:layout_height="110dp"
+            android:layout_margin="16dp"
+            app:cardBackgroundColor="#CC111111"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnMessageConnecting"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/bg_white_circle"
+                    android:src="@drawable/ic_message_call" />
+
+                <ImageButton
+                    android:id="@+id/btnVideoConnecting"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@drawable/bg_white_circle"
+                    android:src="@drawable/ic_video_call_new" />
+
+                <ImageButton
+                    android:id="@+id/btnSpeakerConnecting"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@drawable/bg_white_circle"
+                    android:src="@drawable/ic_speaker" />
+
+                <ImageButton
+                    android:id="@+id/btnMicConnecting"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@drawable/bg_white_circle"
+                    android:src="@drawable/ic_mic" />
+
+                <ImageButton
+                    android:id="@+id/btnEndCallConnecting"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="12dp"
+                    android:background="@drawable/bg_red_circle"
+                    android:src="@drawable/ic_call_end"
+                    app:tint="@android:color/white" />
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

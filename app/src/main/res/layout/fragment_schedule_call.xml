@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:background="@android:color/white"
+    tools:context=".ui.fragments.home.ScheduleCallFragment">
+
+
+    <!-- Content -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <!-- Title -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/schedule_fake_call"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/textcolor"
+                android:gravity="center"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/setup_distraction"
+                android:textSize="14sp"
+                android:textColor="@color/textGray"
+                android:gravity="center"
+                android:layout_marginBottom="20dp" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                android:visibility="gone"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:cardBackgroundColor="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Duration Buttons -->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/btn1Min"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/in_1_min"
+                            android:textColor="#707070"
+                            android:textSize="13sp"
+                            android:background="@drawable/btn_duration_unselected" />
+
+                        <Space
+                            android:layout_width="8dp"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/btn5Min"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/in_5_mins"
+                            android:textColor="#707070"
+                            android:textSize="13sp"
+                            android:background="@drawable/btn_duration_unselected" />
+
+                        <Space
+                            android:layout_width="8dp"
+                            android:layout_height="wrap_content" />
+
+                        <TextView
+                            android:id="@+id/btn15Min"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="@string/in_15_mins"
+                            android:textColor="#707070"
+                            android:textSize="13sp"
+                            android:background="@drawable/btn_duration_unselected" />
+                        <Space android:layout_width="4dp"
+                            android:layout_height="wrap_content" />
+
+
+                        <!-- NEW: Custom Duration Button -->
+                        <TextView
+                            android:id="@+id/btnCustomDuration"
+                            android:layout_width="0dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Custom"
+                            android:textColor="#707070"
+                            android:textSize="13sp"
+                            android:background="@drawable/btn_duration_unselected" />
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="@dimen/_10sdp"
+                        android:layout_marginTop="20dp">
+
+                        <!-- Profile Circle -->
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:cardCornerRadius="60dp"
+                            app:cardBackgroundColor="#F0EEEE"
+                            app:strokeColor="#E5E5E5"
+                            app:strokeWidth="1dp">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/ivProfile"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"/>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <!-- Camera Icon -->
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/btnSelectImage"
+                            android:layout_width="38dp"
+                            android:layout_height="38dp"
+                            android:layout_gravity="bottom|end"
+                            android:layout_marginEnd="4dp"
+                            android:layout_marginBottom="4dp"
+                            app:cardCornerRadius="19dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardElevation="6dp">
+
+                            <ImageView
+                                android:layout_width="18dp"
+                                android:layout_height="18dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/ic_camera_new" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </FrameLayout>
+
+                    <!-- NAME -->
+                    <!-- Name -->
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:boxStrokeColor="#F0EEEE"
+                        app:boxBackgroundColor="#F0EEEE"
+                        android:layout_marginTop="16dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/caller_name" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                    <!-- Video -->
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        app:cardCornerRadius="12dp"
+                        app:strokeWidth="1dp"
+                        app:cardBackgroundColor="#F0EEEE"
+                        app:strokeColor="#F0EEEE">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_video_call" />
+
+
+                            <TextView
+                                android:id="@+id/tvVideo"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="@string/select_video"
+                                android:paddingStart="12dp"
+                                android:textSize="15sp" />
+
+
+                            <ImageView
+                                android:id="@+id/btnSelectVideo"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_edit" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+                    <!-- Audio -->
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        app:cardCornerRadius="12dp"
+                        android:visibility="visible"
+                        app:strokeWidth="1dp"
+                        app:cardBackgroundColor="#F0EEEE"
+                        app:strokeColor="#F0EEEE">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+
+                            <ImageView
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_music" />
+
+
+                            <TextView
+                                android:id="@+id/tvAudio"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:maxLines="1"
+                                android:ellipsize="marquee"
+                                android:text="@string/select_custom"
+                                android:paddingStart="12dp"
+                                android:textSize="15sp" />
+
+
+                            <ImageView
+                                android:id="@+id/btnSelectAudio"
+                                android:layout_width="24dp"
+                                android:layout_height="24dp"
+                                android:src="@drawable/ic_edit" />
+
+                        </LinearLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+                    <!-- DATE & TIME -->
+
+                    <LinearLayout
+
+                        android:alpha="0.5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
+
+                        <!-- DATE -->
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/date"
+                                android:textStyle="bold"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/tvDate"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="8dp"
+                                android:background="@drawable/bg_date_time"
+                                android:gravity="center"
+                                android:text="10/27/2025"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+
+                        <Space
+                            android:layout_width="12dp"
+                            android:layout_height="wrap_content" />
+
+                        <!-- TIME -->
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/time"
+                                android:textStyle="bold"
+                                android:textSize="14sp" />
+
+                            <TextView
+                                android:id="@+id/tvTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_marginTop="8dp"
+                                android:background="@drawable/bg_date_time"
+                                android:gravity="center"
+                                android:text="02:30 PM"
+                                android:textSize="18sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <!-- Divider -->
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#E6E6E6" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/ringtone_background"
+                        android:paddingHorizontal="12dp"
+                        android:layout_marginBottom="@dimen/_10sdp">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:src="@drawable/ic_ringtone"
+                            android:contentDescription="@string/ringtone" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:layout_marginStart="12dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/ringtone"
+                                android:textSize="12sp"
+                                android:textColor="#999999" />
+
+                            <TextView
+                                android:id="@+id/ringtoneValue"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/default_marimba"
+                                android:textSize="14sp"
+                                android:textColor="@android:color/black"
+                                android:layout_marginTop="2dp" />
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/changeButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/change"
+                            android:textSize="12sp"
+                            android:textColor="#1976D2"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnScheduleCall"
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:text="@string/schedule_fake_call"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:backgroundTint="@null"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        app:backgroundTint="#BC000A"
+                        app:icon="@drawable/ic_shield"
+                        app:iconGravity="textStart"
+                        app:iconPadding="8dp"
+                        app:iconTint="@android:color/white"
+                        app:cornerRadius="12dp"
+                        android:background="@drawable/bg_call_gradient"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/upcommingCallCard"
+                android:layout_width="match_parent"
+                android:visibility="visible"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@color/white"
+                app:strokeWidth="1dp"
+                app:strokeColor="@color/textcolor">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="72dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingHorizontal="12dp">
+
+                    <!-- Hero Image -->
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/ivHero"
+                        android:layout_width="60dp"
+                        android:src="@drawable/hero_one"
+                        android:layout_height="60dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+
+                    <!-- Name & Time -->
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="12dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvHeroName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Zendaya"
+                            android:textStyle="bold"
+                            android:maxLines="1"
+                            android:ellipsize="marquee"
+                            android:textSize="15sp"
+                            android:textColor="@color/textcolor" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:orientation="horizontal"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:src="@drawable/ic_video_call" />
+
+                            <TextView
+                                android:id="@+id/tvCallTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00:00"
+                                android:textSize="12sp"
+                                android:textColor="@color/textGray"
+                                android:layout_marginStart="4dp"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Schedule Button -->
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnSchedule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_duration_selected"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp"
+                        android:minWidth="0dp"
+                        android:paddingHorizontal="10dp"
+                        android:text="@string/upcomming"
+                        android:textAllCaps="false"
+                        android:textColor="@android:color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="@null"
+                        app:cornerRadius="12dp"
+                        app:iconGravity="textStart"
+                        app:iconPadding="8dp"
+                        app:iconTint="@android:color/white" />
+
+
+                    <!-- Delete Button -->
+
+                    <ImageView
+                        android:id="@+id/ivDelete"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_marginStart="8dp"
+                        android:padding="8dp"
+                        android:src="@drawable/ic_delete"/>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvHeroesSchedule"
+                android:layout_width="match_parent"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/item_hero_scedule" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

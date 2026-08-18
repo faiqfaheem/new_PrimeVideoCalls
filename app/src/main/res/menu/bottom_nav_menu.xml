@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_start"
+        android:icon="@drawable/ic_video_call_selector"
+        android:title="@string/video_call"/>
+
+    <item
+        android:id="@+id/nav_ai"
+        android:icon="@drawable/ic_ai_selector"
+        android:title="@string/ai_message"/>
+
+    <item
+        android:id="@+id/nav_prank"
+        android:icon="@drawable/ic_sound_selector"
+        android:title="@string/prank_sound"/>
+
+    <item
+        android:id="@+id/nav_schedule"
+        android:icon="@drawable/ic_schedule_selector"
+        android:title="@string/schedule_call"/>
+
+</menu>

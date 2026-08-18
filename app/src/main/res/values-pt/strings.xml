@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrankVideoCall</string>
+    <string name="entrance_screen">Tela Inicial</string>
+    <string name="language_screen">Tela de Idioma</string>
+    <string name="onboarding_screen">Tela de Boas-vindas</string>
+    <string name="dashboard_screen">Tela Principal</string>
+    <string name="feature_one_screen">Tela do Recurso Um</string>
+    <string name="feature_two_screen">Tela do Recurso Dois</string>
+    <string name="exit_screen">Tela de Saída</string>
+
+    <string name="_continue">Continuar</string>
+    <string name="feature_one">Recurso Um</string>
+    <string name="feature_two">Recurso Dois</string>
+    <string name="menu_one">Menu Um</string>
+    <string name="menu_two">Menu Dois</string>
+
+    <string name="onboarding_title">Chamada de Vídeo de Pegadinha</string>
+    <string name="onboarding_description">
+    Faça chamadas de vídeo falsas e divertidas\npara pregar peças em amigos ou familiares.
+</string>
+
+    <string name="ad_disclaimer">Esta ação pode conter anúncios</string>
+    <string name="next">Próximo</string>
+    <string name="hello_blank_fragment">Olá</string>
+    <string name="select_language">Selecionar Idioma</string>
+
+    <string name="releastic_video_call">Chamadas de Vídeo Realistas</string>
+    <string name="releastic_des">Pregue peças em seus amigos com \nchamadas de vídeo ultrarrealistas de\nsuper-heróis, celebridades e muito mais.</string>
+
+    <string name="chat_with_ai">Converse com Personagens de IA</string>
+    <string name="chat_with_ai_des">Envie e receba mensagens divertidas \ndos nossos personagens de IA \na qualquer momento.</string>
+
+    <string name="epic_sound">Painel de Sons Épicos</string>
+    <string name="epic_sound_des">Acesse uma enorme biblioteca \nde sons clássicos de pegadinhas \npara animar qualquer situação instantaneamente.</string>
+
+    <string name="perfect_timing">Momento Perfeito</string>
+    <string name="perfect_timing_des">Agende chamadas falsas para o futuro \ne crie a distração ou desculpa perfeita.</string>
+
+    <string name="get_started">Começar</string>
+    <string name="prank_call">Chamada de Vídeo de Pegadinha</string>
+    <string name="custom">Personalizado</string>
+    <string name="super_hero">Super-Heróis</string>
+    <string name="ai_message">Mensagem de IA</string>
+    <string name="prank_sound">Sons de Pegadinha</string>
+    <string name="schedule_call">Agendar Chamada</string>
+    <string name="video_call">Chamada de Vídeo</string>
+    <string name="add_to_contact">Adicionar Contato</string>
+    <string name="delay_sequence">Tempo de Espera</string>
+
+    <string name="delay_0">0 s</string>
+    <string name="delay_10">10 s</string>
+    <string name="delay_30">30 s</string>
+    <string name="delay_45">45 s</string>
+    <string name="delay_60">60 s</string>
+
+    <string name="delay_quick">Rápido</string>
+    <string name="delay_standard">Padrão</string>
+    <string name="delay_setup">Configuração</string>
+    <string name="delay_long">Longo</string>
+
+    <string name="custom_countdown">Contagem regressiva personalizada (MM:SS)</string>
+    <string name="default_time">01:30</string>
+
+    <string name="call_now">Ligar Agora</string>
+    <string name="swipe_up_to_accept">Deslize para cima para atender</string>
+    <string name="how_was">Como foi a experiência da chamada?</string>
+
+    <string name="schedule_fake_call">Agendar uma Chamada Falsa</string>
+    <string name="setup_distraction">Crie a distração perfeita.</string>
+
+    <string name="in_1_min">Em 1 min</string>
+    <string name="in_5_mins">Em 5 min</string>
+    <string name="in_15_mins">Em 15 min</string>
+
+    <string name="date">Data</string>
+    <string name="time">Hora</string>
+    <string name="date_hint">20/04/2026</string>
+    <string name="time_hint">14:30</string>
+
+    <string name="ringtone">Toque</string>
+    <string name="default_marimba">Padrão (Marimba)</string>
+    <string name="change">ALTERAR</string>
+
+    <string name="upcomming">Próxima Chamada</string>
+    <string name="saved_caller">SALVAR CONTATO</string>
+
+    <string name="select_audio">Selecionar Áudio</string>
+    <string name="select_video">Selecionar Vídeo</string>
+    <string name="caller_name">Nome do Chamador</string>
+    <string name="select_image">Selecionar Imagem</string>
+
+    <string name="add_name_image">Adicione uma imagem, nome, vídeo e toque.</string>
+    <string name="create_custom">Criar Contato Personalizado</string>
+
+    <string name="play">Reproduzir</string>
+    <string name="pause">Parar</string>
+
+    <string name="thank_you_for_using">Obrigado por usar nosso aplicativo</string>
+    <string name="before_you_go_let_us_know_your_nthoughts">Antes de sair, conte-nos \no que você achou!</string>
+
+    <string name="rate_us">Avalie-nos</string>
+    <string name="exit">Sair do aplicativo</string>
+    <string name="schedule">Agendar</string>
+    <string name="select_custom">Selecionar Áudio Personalizado</string>
+
+    <string name="connecting">Conectando...</string>
+    <string name="ringing">Chamando...</string>
+    <string name="share">Compartilhar som</string>
+</resources>

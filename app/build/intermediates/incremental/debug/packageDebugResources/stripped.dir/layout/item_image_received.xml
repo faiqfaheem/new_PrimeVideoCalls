@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="start"
+
+    android:padding="4dp">
+    <LinearLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_message_received"
+        android:maxWidth="280dp"
+        android:padding="@dimen/_3sdp">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            app:strokeColor="@color/white"
+            app:strokeWidth="0dp"
+            app:cardBackgroundColor="#F4F3F8"
+            app:cardCornerRadius="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ivImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/tvTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/bg_call_gradient"
+                    android:backgroundTint="#66000000"
+                    android:paddingHorizontal="6dp"
+                    android:paddingVertical="2dp"
+                    android:textColor="@android:color/white"
+                    android:textSize="11sp" />
+
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

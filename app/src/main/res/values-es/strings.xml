@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PrankVideoCall</string>
+    <string name="entrance_screen">Pantalla de inicio</string>
+    <string name="language_screen">Pantalla de idioma</string>
+    <string name="onboarding_screen">Pantalla de bienvenida</string>
+    <string name="dashboard_screen">Pantalla principal</string>
+    <string name="feature_one_screen">Pantalla de la función uno</string>
+    <string name="feature_two_screen">Pantalla de la función dos</string>
+    <string name="exit_screen">Pantalla de salida</string>
+
+    <string name="_continue">Continuar</string>
+    <string name="feature_one">Función uno</string>
+    <string name="feature_two">Función dos</string>
+    <string name="menu_one">Menú uno</string>
+    <string name="menu_two">Menú dos</string>
+
+    <string name="onboarding_title">Videollamada de broma</string>
+    <string name="onboarding_description">
+    Haz videollamadas falsas y divertidas\npara gastar bromas a tus amigos o familiares.
+</string>
+
+    <string name="ad_disclaimer">Esta acción puede contener anuncios</string>
+    <string name="next">Siguiente</string>
+    <string name="hello_blank_fragment">Hola</string>
+    <string name="select_language">Seleccionar idioma</string>
+
+    <string name="releastic_video_call">Videollamadas realistas</string>
+    <string name="releastic_des">Gasta bromas a tus amigos con \nvideollamadas ultrarrealistas de\nsuperhéroes, celebridades y más.</string>
+
+    <string name="chat_with_ai">Chatea con personajes de IA</string>
+    <string name="chat_with_ai_des">Envía y recibe mensajes divertidos \nde nuestros personajes de IA \nen cualquier momento.</string>
+
+    <string name="epic_sound">Panel de sonidos épicos</string>
+    <string name="epic_sound_des">Accede a una enorme biblioteca \nde sonidos clásicos de bromas \npara animar cualquier situación al instante.</string>
+
+    <string name="perfect_timing">Momento perfecto</string>
+    <string name="perfect_timing_des">Programa llamadas falsas para el futuro \ny crea la distracción o excusa perfecta.</string>
+
+    <string name="get_started">Comenzar</string>
+    <string name="prank_call">Videollamada de broma</string>
+    <string name="custom">Personalizado</string>
+    <string name="super_hero">Superhéroes</string>
+    <string name="ai_message">Mensaje de IA</string>
+    <string name="prank_sound">Sonidos de broma</string>
+    <string name="schedule_call">Programar llamada</string>
+    <string name="video_call">Videollamada</string>
+    <string name="add_to_contact">Agregar contacto</string>
+    <string name="delay_sequence">Tiempo de espera</string>
+
+    <string name="delay_0">0 s</string>
+    <string name="delay_10">10 s</string>
+    <string name="delay_30">30 s</string>
+    <string name="delay_45">45 s</string>
+    <string name="delay_60">60 s</string>
+
+    <string name="delay_quick">Rápido</string>
+    <string name="delay_standard">Estándar</string>
+    <string name="delay_setup">Preparación</string>
+    <string name="delay_long">Largo</string>
+
+    <string name="custom_countdown">Cuenta regresiva personalizada (MM:SS)</string>
+    <string name="default_time">01:30</string>
+
+    <string name="call_now">Llamar ahora</string>
+    <string name="swipe_up_to_accept">Desliza hacia arriba para responder</string>
+    <string name="how_was">¿Cómo fue la experiencia de la llamada?</string>
+
+    <string name="schedule_fake_call">Programar una llamada falsa</string>
+    <string name="setup_distraction">Prepara la distracción perfecta.</string>
+
+    <string name="in_1_min">En 1 minuto</string>
+    <string name="in_5_mins">En 5 minutos</string>
+    <string name="in_15_mins">En 15 minutos</string>
+
+    <string name="date">Fecha</string>
+    <string name="time">Hora</string>
+    <string name="date_hint">20/4/2026</string>
+    <string name="time_hint">02:30 p. m.</string>
+
+    <string name="ringtone">Tono de llamada</string>
+    <string name="default_marimba">Predeterminado (Marimba)</string>
+    <string name="change">CAMBIAR</string>
+
+    <string name="upcomming">Próxima llamada</string>
+    <string name="saved_caller">GUARDAR CONTACTO</string>
+
+    <string name="select_audio">Seleccionar audio</string>
+    <string name="select_video">Seleccionar video</string>
+    <string name="caller_name">Nombre del contacto</string>
+    <string name="select_image">Seleccionar imagen</string>
+
+    <string name="add_name_image">Agrega una imagen, un nombre, un video y un tono de llamada.</string>
+    <string name="create_custom">Crear contacto personalizado</string>
+
+    <string name="play">Reproducir</string>
+    <string name="pause">Detener</string>
+
+    <string name="thank_you_for_using">Gracias por usar nuestra aplicación</string>
+    <string name="before_you_go_let_us_know_your_nthoughts">Antes de irte, cuéntanos \nqué opinas.</string>
+
+    <string name="rate_us">Califícanos</string>
+    <string name="exit">Salir de la aplicación</string>
+    <string name="schedule">Programar</string>
+    <string name="select_custom">Seleccionar audio personalizado</string>
+
+    <string name="connecting">Conectando...</string>
+    <string name="ringing">Llamando...</string>
+    <string name="share">Compartir sonido</string>
+</resources>

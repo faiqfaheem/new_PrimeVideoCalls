@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.splash.SplashFragment"
+        android:label="fragment_entrance"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_languageFragment"
+            app:destination="@id/languageFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.language.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" >
+
+        <action
+            android:id="@+id/action_languageFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingFragment" />
+        <action
+            android:id="@+id/action_languageFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.onboarding.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding" >
+        <action
+            android:id="@+id/action_onBoardingFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_scheduleCallFragment"
+            app:destination="@id/scheduleCallFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_AIMessageFragment"
+            app:destination="@id/AIMessageFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_prankSoundFragment"
+            app:destination="@id/prankSoundFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fakeIncomingCallFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.FakeIncomingCallFragment"
+        android:label="FakeIncomingCallFragment" >
+        <action
+            android:id="@+id/action_fakeIncomingCallFragment_to_videoCallFragment"
+            app:destination="@id/videoCallFragment" />
+        <action
+            android:id="@+id/action_fakeIncomingCallFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videoCallFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.VideoCallFragment"
+        android:label="VideoCallFragment" >
+
+        <action
+            android:id="@+id/action_videoCallFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_videoCallFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.StartFragment"
+        android:label="StartFragment" >
+        <action
+            android:id="@+id/action_startFragment_to_heroCallBottomSheet"
+            app:destination="@id/heroCallBottomSheet" />
+    </fragment>
+    <dialog
+        android:id="@+id/heroCallBottomSheet"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.bottomSheet.HeroCallBottomSheet"
+        android:label="HeroCallBottomSheet" >
+        <action
+            android:id="@+id/action_heroCallBottomSheet_to_fakeIncomingCallFragment"
+            app:destination="@id/fakeIncomingCallFragment" />
+    </dialog>
+    <fragment
+        android:id="@+id/AIMessageFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.AIMessageFragment"
+        android:label="fragment_a_i_message"
+        tools:layout="@layout/fragment_a_i_message" >
+        <action
+            android:id="@+id/action_AIMessageFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/prankSoundFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.PrankSoundFragment"
+        android:label="fragment_prank_sound"
+        tools:layout="@layout/fragment_prank_sound" >
+        <action
+            android:id="@+id/action_prankSoundFragment_to_playSoundFragment"
+            app:destination="@id/playSoundFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scheduleCallFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.ScheduleCallFragment"
+        android:label="fragment_schedule_call"
+        tools:layout="@layout/fragment_schedule_call" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" >
+        <action
+            android:id="@+id/action_chatFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_chatFragment_to_ringingFragment"
+            app:destination="@id/ringingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playSoundFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.PlaySoundFragment"
+        android:label="PlaySoundFragment" />
+    <fragment
+        android:id="@+id/ringingFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.RingingFragment"
+        android:label="fragment_ringing"
+        tools:layout="@layout/fragment_ringing" >
+        <action
+            android:id="@+id/action_ringingFragment_to_videoCallFragment"
+            app:destination="@id/videoCallFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.axis.vpn.tools.prankvideocall.ui.fragments.home.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+
+</navigation>
